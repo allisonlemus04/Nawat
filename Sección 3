@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Logos/Logo_Nawat-02[1].png" alt="Logo de la Página">
+        </div>
+        <div class="buscador">
+            <input type="text" placeholder="Buscar productos...">
+        </div>
+        <nav class="menu-superior">
+            <ul>
+                <li><a href="#">Blog/Artículos</a></li>
+                <li><a href="#">Ofertas Especiales</a></li>
+                <li><a href="#">Preguntas Frecuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="categorias">
+        <ul>
+            <li><a href="#">DECORACIÓN</a></li>
+            <li><a href="#">JUEGOS</a></li>
+            <li><a href="#">COCINA</a></li>
+            <li><a href="#">ACCESORIOS</a></li>
+            <li><a href="#">MUEBLES</a></li>
+            <li><a href="#">ROPA</a></li>
+        </ul>
+    </aside>
+    <main>
+        <div class="productos">
+            <div class="categoria">
+                <h2>ARTE NAIF</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="./Arte naif/Adorno de madera Arte naif.jpg" alt="Producto 1">
+                        <h3>ARTE EN MADERA</h3>
+                        <p>$6.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Cajas arte naif.jpg" alt="Producto 2">
+                        <h3>COFRE</h3>
+                        <p>$5.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Cruz de madera Ate Naif.jpg" alt="Producto 3">
+                        <h3>CRUZ DECORADA</h3>
+                        <p>$8.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Cuadro arte naif.jpg" alt="Producto 4">
+                        <h3>CUADRO DECORATIVO</h3>
+                        <p>10.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Jarron decorativo Arte Naif.jpg" alt="Producto 5">
+                        <h3>JARRÓN DECORATIVO</h3>
+                        <p>$12.50</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Llaveros de madera Arte naif.jpg" alt="Producto 6">
+                        <h3>LLAVEROS DECORADOS</h3>
+                        <p>$4.50</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Marco Arte Naif.jpg" alt="Producto 7">
+                        <h3>MARCO DECORADO</h3>
+                        <p>$7.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Plato Arte Naif.jpg" alt="Producto 8">
+                        <h3>PLATO DECORATIVO</h3>
+                        <p>$5.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h2>BARRO</h2>
+                <div class="productos-grid">
+                <div class="producto">
+                    <img src="Barro/Aretes.jpg" alt="Aretes">
+                    <h3>ARETES DE CALAVERA</h3>
+                    <p>$15.00</p>
+                    <a href="pagina de compra" class="boton-comprar">Comprar</a>
+                </div>
+            <div class="producto">
+                <img src="Barro/Azucarera.jpg" alt="Azucarera">
+                <h3>AZUCARERA RAYADA</h3>
+                <p>$25.00</p>
+                <a href="pagina de compra" class="boton-comprar">Comprar</a>
+            </div>  
+            <div class="producto">
+                <img src="Barro/Cazuela con tapa.jpg" alt="Cazuela">
+                <h3>CAZUELA CON TAPA</h3>
+                <P>$35.00</P>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+            </div>
+            <div class="producto">
+                 <img src="Barro/Cazuela.jpg" alt="CAZUELA REDONDA">
+                 <h3>CAZUELA SIN TAPA</h3>
+                 <P>$30.00</P>
+                 <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="Barro/collar" alt="Collar">
+                <h3>COLLAR DE BARRO</h3>
+                <p>$25.00</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="Barro/Cuenco de barro.jpg" alt="Cuenco">
+                <h3>CUENCO BRILLANTE</h3>
+                <p>$17.99</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="Barro/Jarra lisa.jpg" alt="Jarra">
+                <h3>JARRA LISA</h3>
+                <p>$15.50</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="Barro/lampara.jpg" alt="Lampara">
+                <h3>LAMPARA DECORATIVA</h3>
+                <p>$69.99</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="Barro/Macetero.jpg" alt="Maceta">
+                <h3>MACETA EN FORMA DE OLLA</h3>
+                <p>$45.99</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="Barro/mesa.jpg" alt="mesa">
+                <h3>MESA PARA COMEDOR</h3>
+                <p>$32.00</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="Barro/plato de barro.jpg" alt="Plato">
+                <img src="PLATO CON DECORACIÓN" alt="PLATO">
+                <p>$12.99</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+              </div>
+              <div class="producto">
+                <img src="Barro/Tazas barro.jpg" alt="taza">
+                <h3>TAZA PARA CAFÉ</h3>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+            </div>
+        </div>
+
+        <div class="categoria">
+            <h2> CERÁMICA</h2>
+            <div class="productos-grid">
+            <div class="producto">
+                <img src="Ceramica/Aretes de arcoiris" alt="Aretes">
+                <h3>ARETES ARCOIRIS</h3>
+                <p>$22.99</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+            </div>
+          <div class="producto">
+                <img src="Ceramica/Aretes de oro rosado.jpg" alt="aretes de oro">
+                <h3>ARETES CON ORO</h3>
+                <p>$45.99</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Aretes geometricos.jpg" alt="geometricos">
+            <h3>ARETES GEOMÉTRICOS</h3>
+            <p>$15.99</p>
+            <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Collar con diamente" alt="COLLAR">
+            <h3> COLLAR CON DIAMENTE</h3>
+            <p>$69.99</p>
+            <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Juego de utensilios de cocina.jpg" alt="utensilios">
+            <h3>UTENSILIOS DE COCINA</h3>
+            <p>$35.99</p>
+            <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Maceta de rostro.jpg" alt="Maceta">
+            <h3>MACETA CON ROSTRO</h3>
+            <p>$34.65</p>
+            <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Macetas terra flora.jpg" alt="MACETA terra">
+            <h3>MACETA TERRA FLORA</h3>
+            <p>$25.99</p>
+            <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Maceta gris.jpg" alt="gris">
+            <h3> MACETA GRIS</h3>
+            <p>$35.99</p>
+             <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Macetas de ceramica octagona.jpg" alt="octagona">
+            <h3>MACETA OCTAGONAL</h3>
+            <p>$45.99</p>
+            <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+          </div>
+        </div>
+
+             <div class="categoria">
+                <h2>MADERA</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="./Madera/Madera 1.jpg" alt="Producto 1">
+                        <h3>COFRE ARTESANAL</h3>
+                        <p>$5.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 2.jpg" alt="Producto 2">
+                        <h3>PLATO COLORIDO</h3>
+                        <p>$4.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 3.jpg" alt="Producto 3">
+                        <h3>CUADRO DETALLADO</h3>
+                        <p>$8.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 4.jpg" alt="Producto 4">
+                        <h3>NACIMIENTO NAVIDEÑO DE MADERA</h3>
+                        <p>$25.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 5.jpg" alt="Producto 5">
+                        <h3>JUEGOS TRADICONALES </h3>
+                        <p>$9.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 6.jpg" alt="Producto 6">
+                        <h3>UTENSILIOS DE COCINA</h3>
+                        <p>$40.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 7.jpg" alt="Producto 7">
+                        <h3>CARRETA DE BUEYES</h3>
+                        <p>$8.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 8.jpg" alt="Producto 8">
+                        <h3>ESCUDO DEL SALVADOR</h3>
+                        <p>$15.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 9.jpg" alt="Producto 9">
+                        <h3>CRUZ DECORADA</h3>
+                        <p>$17.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                
+                    <div class="producto">
+                        <img src="./Madera/Madera 10.png" alt="Producto 10">
+                        <h3>COMEDOR PARA DOS</h3>
+                        <p>$55.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                     
+                    <div class="producto">
+                        <img src="./Madera/Madera 11.jpg" alt="Producto 11">
+                        <h3>CUADRO DECORATIVO</h3>
+                        <p>$20.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                     </div>
+
+                   <div class="producto">
+                       <img src="./Madera/Madera 12.jpg" alt="Producto 12">
+                       <h3>CUADRO DE TORTUGA</h3>
+                       <p>$25.00</p>
+                       <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+
+                    <div class="producto">
+                       <img src="./Madera/Madera 13.jpg" alt="Producto 13">
+                       <h3>LLAVERO CON FRASE</h3>
+                       <p>$4.00</p>
+                       <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    
+                    <div class="producto">
+                    <img src="./Madera/Madera 14.jpg" alt="Producto 14">
+                    <h3>CONTENEDOR PARA BOTELLA</h3>
+                    <p>$25.00</p>
+                    <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+            </div>
+            
+            <div class="categoria">
+                <h2>METAL</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="./Metal/Metal 1.jpg" alt="Producto 1">
+                        <h3>BALANZA </h3>
+                        <p>$5.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 2.jpg" alt="Producto 2">
+                        <h3>TOSTADOR</h3>
+                        <p>$3.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/metal 3.jpg" alt="Producto 3">
+                        <h3>CANDIL</h3>
+                        <p>$5.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/metal 4.jpg" alt="Producto 4">
+                        <h3>VASIJA DECORATIVA </h3>
+                        <p>$8.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 5.jpg" alt="Producto 5">
+                        <h3>PAJAROS DECORATIVOS</h3>
+                        <p>$12.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 6.jpg" alt="Producto 6">
+                        <h3>LLAVERO TRADICIONAL</h3>
+                        <p>$4.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 7.jpg" alt="Producto 7">
+                        <h3>PINTOR </h3>
+                        <p>$5.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 8.jpg" alt="Producto 8">
+                        <h3>MARIPOSA</h3>
+                        <p>$12.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 9.jpg" alt="Producto 9">
+                        <h3>TAZA DECORATIVA</h3>
+                        <p>$25.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 10.jpg" alt="Producto 10">
+                        <h3>FRASES MOTIVADORAS </h3>
+                        <p>$8.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="CATEGORIA">
+                <h2>PIEDRA</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                    <img src="Piedra/ADORNOS DE MESA.jpg" alt="Adorno">
+                    <h3>PIEDRAS DE MESA</h3>
+                    <p>$7.50</p>
+                    <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+              </div>
+              <div class="producto">
+                <img src="Piedra/ARETE DE PIEDRAS DORADAS.jpg" alt="ARETES">
+                <h3>ARETES DORADOS</h3>
+                <p>$10.00</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+              </div>
+              <div class="producto">
+                <img src="Piedra/ARETES EN FORMA DE UVA.jpg" alt="UVA">
+                <h3>ARETES FORMA DE UVA</h3>
+                <p>$12.99</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+              </div>
+              <div class="producto">
+                <img src="Piedra/MORTERO.jpg" alt="MORTERO">
+                <h3>MORTERO</h3>
+                <p>$5.00</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+              </div>
+              <div class="producto">
+                <img src="Piedra/MOLCAJETE.jpg" alt="molcajete">
+                <h3>MOLINO MANUAL</h3>
+                <p>$15.99</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+              </div>
+              <div class="producto">
+                <img src="Piedra/PIEDRAS BLANCAS.jpg" alt="blancas">
+                <h3>PIEDRAS DECORATIVAS BLANCAS</h3>
+                <p>$23.99</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+              </div>
+              <div class="producto">
+                <img src="Piedra/SARTEN.jpg" alt="sarten">
+                <h3>SÁRTEN VOLCÁNICA</h3>
+                <p>$60.00</p>
+                <a href="pagina de compra" class="boton-comprar"> Comprar</a>
+              </div>
+            </div>
+
+            <div class="categoria">
+                <h2>TELA</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="./Tela/Tela 1.jpg" alt="Producto 1">
+                        <h3>SILLA COLORIDAS </h3>
+                        <p>$25.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 2.jpg" alt="Producto 2">
+                        <h3>MUÑECA COLORIDA</h3>
+                        <p>12.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 3.jpg" alt="Producto 3">
+                        <h3>HAMACA GRANDE </h3>
+                        <p>$25.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 4.jpg" alt="Producto 4">
+                        <h3>VESTIDO TIPICO </h3>
+                        <p>15.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 5.jpg" alt="Producto 5">
+                        <h3>INDIVIDUALES</h3>
+                        <p>$10.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 6.jpg" alt="Producto 6">
+                        <h3>BOLSA </h3>
+                        <p>6.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 7.png" alt="Producto 7">
+                        <h3>GORROS  </h3>
+                        <p>$8.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 8.jpg" alt="Producto 8">
+                        <h3>MANTEL</h3>
+                        <p>12.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h2>VIDRIO</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="./Vidrio/Arboles pequeños.jpg" alt="Producto 1">
+                        <h3>ÁRBOLES DECORATIVOS</h3>
+                        <p>$30.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Frutas.jpg" alt="Producto 2">
+                        <h3>FRUTAS PORTACALIENTES</h3>
+                        <p>$25.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Lampara.jpg" alt="Producto 3">
+                        <h3>LÁMPARA</h3>
+                        <p>$50.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Mapa.jpg" alt="Producto 4">
+                        <h3>MAPA DE EL SALVADOR</h3>
+                        <p>18.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Plato.jpg" alt="Producto 5">
+                        <h3>PLATO</h3>
+                        <p>$15.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Tcf.jpg" alt="Producto 6">
+                        <h3>TOROGOZ CON VOLCÁN Y FLOR</h3>
+                        <p>$25.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Torogoz.jpg" alt="Producto 7">
+                        <h3>TOROGOZ</h3>
+                        <p>$20.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Vitral Angel navideño.jpg" alt="Producto 8">
+                        <h3>ADORNO NAVIDEÑO</h3>
+                        <p>$20.00</p>
+                        <a href="pagina_de_compra" class="boton-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    </main>
+</body>
+</html>
