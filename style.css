@@ -8,25 +8,31 @@
     font-family: 'Poppins', sans-serif;
 } */
 
-.navbar{
+
+.header{
+    background: radial-gradient(#fff,#C09C8D);
+    overflow: hidden;
+    display: flex;
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
+.container .navbar{
     display: flex;
     align-items: center;
     padding: 20px;
 }
-nav{
-    flex: 1;
-    text-align: right;
+
+.container .navbar .logo{
+    display: flex;
+    justify-content: center;
 }
 
-nav ul{
-    display: inline-block;
-    list-style-type: none;
-
-}
-
-nav ul li{
-    display: inline-block;
-    margin-right: 20px;
+.container .navbar .carrito{
+    display: flex;
+    justify-content: left;
 }
 
 a{
@@ -43,6 +49,7 @@ p{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    overflow: hidden;
 
 }
 
@@ -83,13 +90,7 @@ p{
     background:#563434 ;
 }
 
-.header{
-    background: radial-gradient(#fff,#C09C8D);
-}
 
-.header .row {
-    margin-top: 70px;
-}
 
 .categories{
     margin: 50 px;
