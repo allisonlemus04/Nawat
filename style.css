@@ -14,30 +14,30 @@ body {
 
 /*------------Encabezado-----------*/
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     padding: 20px;
     background: radial-gradient(#fff,#C09C8D);
 }
-nav{
+nav {
     flex: 1;
     text-align: right;
 }
 
-nav ul{
+nav ul {
     display: inline-block;
     list-style-type: none;
 
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     margin-right: 20px;
 }
 
 
-.container{
+.container {
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
@@ -46,7 +46,7 @@ nav ul li{
 
 a {
     text-decoration: none;
-    color: #555
+    color: #565555
 }
 
 
@@ -72,12 +72,13 @@ a {
     line-height: 1;
     color: #c08552;
     margin-bottom: 35px;
+    margin-top: 35px;
    }
 
    .nosotros-content p {
     font-size: 20px;
     text-align: justify;
-    color: #000000;
+    color: #565555;
     margin-bottom: 35px;
     margin-top: 35px;
     margin-left: auto;
@@ -105,8 +106,68 @@ a {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/*------------FAQ-----------*/
+
+
+.accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem  auto;
+}
+
+accordion-item {
+    background-color: #f4f4f4;
+    color: #565555;
+    margin: 1rem  0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px  5px 0 rgb(0,0,0,0.25);
+}
+
+.accordion-item-header {
+    padding: 0.5rem 3rem  0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
  
+.accordion-item-header.active::after {
+    content: "\2212";
+}
+
+.accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition:  max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
+.accordion-item-header.active + .accordion-item-body {
+    max-height: 1000px;
+}
+
+
+
 /*------------Servicio al cliente-----------*/
+
+
 .servicio-content h2 {
     font-size: 60px;
     text-align: center;
@@ -116,7 +177,7 @@ a {
     margin-top: 35px;
 }
 
-.servicio{
+.servicio {
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -124,7 +185,7 @@ a {
     text-align: center;
 }
 
-.box-container{
+.box-container {
     margin-top: 55px;
     margin-bottom: 55px;
     display: grid;
@@ -138,7 +199,8 @@ a {
     
 }
 
-.imagenes{
+
+.imagenes {
     justify-content: center;
     display: flex;
 }
@@ -228,7 +290,7 @@ parrafo-content h1, h3, h4 {
    .parrafo-content p {
     font-size: 20px;
     text-align: justify;
-    color: #000000;
+    color: #565555;
     margin-bottom: 35px;
     margin-top: 35px;
     margin-left: auto;
@@ -249,7 +311,7 @@ parrafo-content h1, h3, h4 {
    .parrafo1-content p {
     font-size: 20px;
     text-align: justify;
-    color: #000000;
+    color: #565555;
     margin-bottom: 35px;
     margin-top: 35px;
     margin-left: auto;
@@ -273,7 +335,7 @@ parrafo-content h1, h3, h4 {
    .parrafo2-content p {
     font-size: 20px;
     text-align: justify;
-    color: #000000;
+    color: #565555;
     margin-bottom: 35px;
     margin-top: 35px;
     margin-left: auto;
@@ -295,7 +357,7 @@ parrafo-content h1, h3, h4 {
    .parrafo3-content p {
     font-size: 20px;
     text-align: justify;
-    color: #000000;
+    color: #565555;
     margin-bottom: 35px;
     margin-top: 35px;
     margin-left: auto;
