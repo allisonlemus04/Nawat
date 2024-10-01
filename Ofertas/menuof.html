@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nawat</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="./menuof.css">
+  <!-- CSS del botón ir hacia arriba -->
+  <link rel="stylesheet" href="css/boton_hacia_arriba.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./menuof.css">
+    <!-- Menú desplegable -->
+    <div class="menu-container">
+        <div class="dropdown">
+            <button onclick="toggleDropdown()">☰</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="">Inicio</a>
+                <a href="">Ofertas</a>
+                <a href="">Productos</a>
+                <a href="">Politicas</a>
+            </div>
+        </div>
+    </div>           
+    
+      </header>
+</head>    
+<body>  
+    <div class="carousel-container">
+        <h1 class="carousel-title">OFERTAS ESPECIALES</h1>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="./imagenes/ARETE DE PIEDRAS DORADAS.jpg" alt="Imagen 1">
+                <img src="./imagenes/ARETES EN FORMA DE UVA.jpg" alt="Imagen 2">
+                <img src="./imagenes/collar.webp" alt="Imagen 3">
+                <img src="./imagenes/plato de barro.jpg" alt="Imagen 4">
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides(slideIndex);
+
+        function moveSlide(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            const slides = document.querySelectorAll('.carousel-images img');
+            if (n >= slides.length) slideIndex = 0;
+            if (n < 0) slideIndex = slides.length - 1;
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = 'none';
+            }
+            slides[slideIndex].style.display = 'block';
+        }
+
+        setInterval(() => {
+            moveSlide(1);
+        }, 3000);
+    </script>
+ <div class="caja1">
+  <ul> 
+        <img src="imagenes/Cazuela con tapa.jpg">
+          <h6>Cazuela con tapa</h6>
+          <p>Precio: $25.00</p>
+          <p>Ahora: $18.00</p>
+          <p>(Envío a domicilio $2)</p>
+  </ul>
+  
+  <div> 
+    <ul>
+      <img src="imagenes/Frutas.jpg">
+        <h6>fresas a base de vidrio</h6>
+        <p>Precio: $35.00</p>
+        <p>Ahora: $28.99</p>
+        <p>(Envío a domicilio $2)</p>
+    </ul>
+</div>
+
+<div>
+  <ul>
+      <img src="imagenes/Jarra lisa.jpg">
+      <h6>Jarra de barro</h6>
+      <p>Precio: $45.00</p>
+      <p>Ahora: $39.95</p>
+      <p>(Envío a domicilio $2)</p>
+ </ul>
+</div>
+
+<div>
+  <ul>
+      <img src="imagenes/Suéter.jpg">
+      <h6>Suéter estilo polo</h6>
+      <p>Precio: $25.00</p>
+      <p>Ahora: $20.00</p>
+      <p>(Envío a domicilio $2)</p>
+  </ul>
+</div>
+</div>
+
+</div>
+<div class="contenedor2">
+<div>
+  <ul>
+        <img src="imagenes/Madera 10.png">
+          <h6>Cartera de cuero</h6>
+          <p>Precio: $110.00</p>
+          <p>Ahora: $95.99</p>
+          <p>(Envío a domicilio $2)</p>
+  </ul>
+</div>
+
+<div>
+<ul> 
+      <img src="imagenes/Madera 8.jpg">
+        <h6>Escudo de El Salvador </h6>
+        <p>Precio: $27.00</p>
+        <p>Ahora: $23.00</p>
+        <p>(Envío a domicilio $2)</p>
+</ul>
+</div>
+
+<div>
+<ul>
+      <img src="imagenes/Tela 3.jpg">
+        <h6>Cartera de cuero</h6>
+        <p>Precio: $25.00</p>
+        <p>Ahora: $18.00</p>
+        <p>(Envío a domicilio $2)</p>
+</ul>
+</div>
+
+<div>
+<ul> 
+      <img src="imagenes/SARTEN.jpg">
+        <h6>Sarten de piedra </h6>
+        <p>Precio: $50.00</p>
+        <p>Ahora: $45.00</p>
+        <p>(Envío a domicilio $2)</p>
+</ul>
+</div>
+
+</div>
+<div class="caja2">
+    <img src="./imagenes/super oferta.png" alt="oferta">
+</div>
+<div class="box1">
+<h2>
+<ul>
+<li>ARTESANÍAS EN VARIEDAD DE MATERIALES</li>
+</li>ANILLOS</li>
+</li>CARTERA TÍPICA DE EL SALVADOR</li>
+</li>CAMISETA TÍPICA DE EL SALVADOR</li>
+</li>ENTRE OTROS...</li>
+</ul>
+</h2>
+</div> 
+<footer>
+<div class="footer">
+<div class="container3">
+  <div class="row">
+<!--     
+      <div class="footer-col-1">
+          <h3>Lorem ipsum dolor sit amet, consectetuer</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+       </div> -->
+
+      <div class="footer-col-2">
+         <img src="imagenes/Logo Nawat-02.png" alt="logo en blanco">
+         <p>Productos locales, de manos y diseñadores salvadoreños; hechos con amor y dedicación, que buscan compartir una experiencia de la identidad de El Salvador. </p>
+      </div>
+
+      <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+              <li>Cupones</li>
+              <li>Blog Post</li>
+              <li>Politicas de devolución</li>
+              <li>Descuentos</li>
+          </ul>
+      </div>
+
+      <div class="footer-col-4">
+          <h3>Siguenos en</h3>
+          <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Tik Tok</li>
+              <li>X</li>
+          </ul>
+      </div>
+     
+  </div>
+  <hr>
+  <div class="copyright">
+      <p>Copyright 2024 - NAWAT | Marketplace</p>
+
+  </div>
+  
+</div>
+</div>
+</footer>
+</div>
+    <script src="./js/menuof.js"></script>
+</body>
+</html>
