@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nawat | Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/57faba85b1.js"crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="script.js"></script>
+
+</head>
+
+<!-- Menú desplegable -->
+<header> 
+    <div class="menu-container">
+        <div class="dropdown">
+            <button onclick="toggleDropdown()">☰</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="decoracion.html">Decoracion</a>
+                <a href="juegos.html">Juegos</a>
+                <a href="cocina.html">Cocina</a>
+                <a href="accesorios.html">Accesorios</a>
+                <a href="muebles.html">Muebles</a>
+                <a href="ropa.html">Ropa</a>
+            </div>
+        </div>   
+</header>
+
+<body>
+    <div class="wrapper">        
+        <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></i></a>
+            <a href="#" class="fab fa-twittwe-f"></i></a>
+            <a href="#" class="fab fa-github-f"></i></a>
+            <a href="#" class="fab fa-youtube-f"></i></a>
+        </div>
+    </div>   
+
+    <button class="toggle-carrito" onclick="toggleCarrito()">Ver Carrito</button>
+
+        <aside class="carrito-lateral">
+            <h2>Carrito de Compras</h2>
+            <div class="carrito-contenido">
+                <p>Tu carrito está vacío.</p>
+            </div>
+            <div class="carrito-opciones">
+                <button class="vaciar-carrito">Vaciar Carrito</button>
+            </div>
+        </aside>                   
+    
+        </div>
+
+    </div>
+    <div class="buscador">
+        <input type="text" id="search-input" placeholder="Buscar productos...">
+        <button onclick="searchProducts()">Buscar</button>
+    </div>
+    <main>
+        <div class="productos">
+            <div class="categoria">
+                <h2>ARTE NAIF</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="./Arte naif/Adorno de madera Arte naif.jpg" alt="Producto 1">
+                        <h3>ARTE EN MADERA</h3>
+                        <p>$6.00</p>
+                        <div class="bloque_detalles"style="display: none;">
+                            <p>Obras de arte únicas en madera, adornadas con pintura artística que resalta la belleza natural de El Salvador.</p>
+                        </div>
+                        <div class="bloque">
+                <button class="boton-compra" data-nombre="ARTE EN MADERA" data-precio="$6.00" data-imagen="./Artenaif/Adorno de madera Arte naif">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>  
+            </div>
+            </div>
+    
+                    <div class="producto">
+                        <img src="./Arte naif/Cajas arte naif.jpg" alt="Producto 2">
+                        <h3>COFRE</h3>
+                        <p>$5.00</p>
+                        <div class="bloque_detalles" style="display: none;"> 
+                        <p>Cofre artesanal de madera pintado a mano, perfecto para guardar pequeños tesoros. Sus colores vibrantes y detalles minuciosos lo convierten en una pieza decorativa funcional y artística.</p>
+                    </div>
+                    <div class="bloque">
+                        <button class="boton-compra" data-nombre="COFRE" data-precio="5.00" data-imagen="./Arte naif/Cajas arte naif.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                    </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Cruz de madera Ate Naif.jpg" alt="Producto 3">
+                        <h3>CRUZ DECORADA</h3>
+                        <p>$8.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Cruz tallada en madera y decorada con hermosos diseños pintados a mano. Una pieza única que combina devoción y arte.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CRUZ DECORADA" data-precio="8.00" data-imagen="./Arte naif/Cruz de madera Ate Naif.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                    </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Cuadro arte naif.jpg" alt="Producto 4">
+                        <h3>CUADRO DECORATIVO</h3>
+                        <p>$10.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Cuadro artesanal con marco de madera, cuidadosamente pintado a mano. Los vibrantes colores y el diseño detallado hacen de esta pieza un complemento ideal.</p>
+                        </div>  
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CUADRO DECORATIVO" data-precio="10.00" data-imagen="./Arte naif/Cuadro arte naif.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>   
+                        </div>
+                    </div>
+                   <div class="producto">
+                        <img src="./Arte naif/Cuadro de la bandera.jpg" alt="Cuadro de bandera">
+                        <h3>CUADRO DE LA BANDERA</h3>
+                        <p>$12.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Cuadro artesanal que representa con orgullo la bandera nacional, pintado a mano con gran precisión.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CUADRO DE LA BANDERA" data-precio="12.00" data-imagen="./Arte naif/Cuadro de la bandera.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>   
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Cuadro El Salvador.jpg" alt="Cuadro de El Salvador">
+                        <h3>CUADRO EL SALVADOR</h3>
+                        <p>$15.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Este cuadro artesanal presenta un detallado mapa de El Salvador, pintado a mano en madera. Ideal para resaltar el amor por nuestras raíces y cultura en cualquier ambiente.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CUADRO DE EL SALVADOR" data-precio="15.00" data-imagen="./Arte naif/Cuadro El Salvador.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button> 
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Cuadros de la lotería.jpg" alt="Cuadros de lotería">
+                        <h3>CUADROS DE LA LOTERÍA DECORATIVO</h3>
+                        <p>$24.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Inspirados en el juego tradicional de lotería, estos cuadros de madera pintados a mano destacan por sus colores vibrantes y estilo folklórico.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CUADRO DE LA LOTERÍA" data-precio="24.00" data-imagen="./Arte naif/Cuadros de la lotería.jpg.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button> 
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Jarron decorativo Arte Naif.jpg" alt="Producto 5">
+                        <h3>JARRÓN DECORATIVO</h3>
+                        <p>$12.50</p>
+                        <div class="bloque_detalles" style="display: none;" >
+                        <p>Jarrón de madera artesanal, pintado a mano con diseños únicos. Perfecto para decorar mesas o estanterías con un estilo rústico y artístico.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="JARRÓN DECORATIVO" data-precio="12.50" data-imagen="./Arte naif/Jarron decorativo Arte Naif.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>   
+                        </div>
+
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Llaveros de madera Arte naif.jpg" alt="Producto 6">
+                        <h3>LLAVEROS DECORADOS</h3>
+                        <p>$4.50</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Llaveros artesanales de madera pintados a mano, pequeños y detallados, son el accesorio perfecto para llevar arte contigo a donde vayas.</p>
+                        </div>
+                        <div class="bloque"> 
+                        <button class="boton-compra" data-nombre="LLAVEROS DECORADOS" data-precio="4.50" data-imagen="./Arte naif/Llaveros de madera Arte naif.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button> 
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Marco Arte Naif.jpg" alt="Producto 7">
+                        <h3>MARCO DECORADO</h3>
+                        <p>$7.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        </div>
+                        <p>Marco de madera pintado a mano, ideal para enmarcar tus recuerdos con un toque artístico</p>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="MARCO DECORADO" data-precio="7.00" data-imagen="./Arte naif/Marco Arte Naif.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Plato Arte Naif.jpg" alt="Producto 8">
+                        <h3>PLATO DECORATIVO</h3>
+                        <p>$5.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Plato de madera artesanal decorado con pintura artística, una pieza decorativa que combina lo tradicional con lo contemporáneo, perfecto para adornar cualquier mesa o pared.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="PLATO DECORATIVO" data-precio="5.00" data-imagen="./Arte naif/Plato Arte Naif.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Taza.jpg" alt="Taza">
+                        <h3>TAZA</h3>
+                        <p>$5.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Taza de madera pintada a mano, ideal como pieza decorativa. Cada taza está cuidadosamente trabajada para ofrecer un diseño artístico único que resalta cualquier espacio.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="TAZA" data-precio="5.00" data-imagen="./Arte naif/Taza.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Arte naif/Vasitos decorativos.jpg" alt="Vasitos decorativos">
+                        <h3>VASITOS DECORATIVOS</h3>
+                        <p>$25.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Vasitos de madera pintados a mano, perfectos como elementos decorativos o de colección. Cada vasito es una muestra de arte detallado que añade calidez y originalidad.</p>
+                       </div>
+                       <div class="bloque">
+                        <button class="boton-compra" data-nombre="VASITOS DECORATIVOS" data-precio="25.00" data-imagen="./Arte naif/Vasitos decorativos.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h2>BARRO</h2>
+                <div class="productos-grid">
+                <div class="producto">
+                    <img src="Barro/Aretes.jpg" alt="Aretes">
+                    <h3>ARETES DE CALAVERA</h3>
+                    <p>$15.00</p>
+                    <div class="bloque_detalles" style="display: none;">
+                    <p> Aretes artesanales con diseño de calavera, elaborados con materiales de alta calidad. Añaden un toque único y atrevido a cualquier look.</p>
+                    </div>   
+                    <div class="bloque">
+                    <button class="boton-compra" data-nombre="ARETES DE CALAVERA" data-precio="15.00" data-imagen="./Barro/Aretes.jpg">Agregar al carrito</button>
+                    <button class="boton-detalles">Detalles</button>
+                    </div>
+                    </div>
+            <div class="producto">
+                <img src="Barro/Azucarera.jpg" alt="Azucarera">
+                <h3>AZUCARERA RAYADA</h3>
+                <p>$25.00</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Azucarera artesanal con un diseño rayado pintado a mano, ideal para darle un toque original y colorido a tu cocina.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="AZUCARERA" data-precio="25.00" data-imagen="./Barro/Azucarera.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>  
+            <div class="producto">
+                <img src="./Barro/Cantaros con tapa.jpg" alt="Cantaros con tapa">
+                <h3>CANTAROS CON TAPA</h3>
+                <p>$20.00</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Cántaros artesanales con tapa, perfectos para almacenar líquidos o como piezas decorativas.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="CANTAROS CON TAPA" data-precio="20.00" data-imagen="./Barro/Cantaros con tapa.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Barro/Cazuela con tapa.jpg" alt="Cazuela">
+                <h3>CAZUELA CON TAPA</h3>
+                <P>$35.00</P>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Cazuela de barro con tapa, ideal para cocinar y servir platos tradicionales. Hecha a mano, combina belleza y funcionalidad.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="CAZUELA" data-precio="35.00" data-imagen="./Barro/Cazuela con tapa.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+            <div class="producto">
+                 <img src="Barro/Cazuela.jpg" alt="CAZUELA REDONDA">
+                 <h3>CAZUELA SIN TAPA</h3>
+                 <P>$30.00</P>
+                 <div class="bloque_detalles" style="display: none;">
+                 <p>Cazuela de barro sin tapa, perfecta para preparar y servir comidas al estilo tradicional. Su diseño artesanal resalta en cualquier mesa.</p>
+                 </div>
+                 <div class="bloque">
+                <button class="boton-compra" data-nombre="CAZUELA SIN TAPA" data-precio="30.00" data-imagen="./Barro/Cazuela.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Barro/collar" alt="Collar">
+                <h3>COLLAR DE BARRO</h3>
+                <p>$25.00</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Collar artesanal de barro, hecho a mano con un diseño natural y auténtico. Ideal para quienes buscan un accesorio único y rústico.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="COLLAR DE BARRO" data-precio="25.00" data-imagen="./Barro/collar.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Barro/Cuenco de barro.jpg" alt="Cuenco">
+                <h3>CUENCO BRILLANTE</h3>
+                <p>$17.99</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Cuenco artesanal con un acabado brillante que resalta su diseño pintado a mano. Perfecto para decorar o usar en la mesa.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="CUENCO DE BRILLANTE" data-precio="17.99" data-imagen="./Barro/Cuenco de barro.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+            </div>
+            </div>
+            <div class="producto">
+                <img src="Barro/Jarra lisa.jpg" alt="Jarra">
+                <h3>JARRA LISA</h3>
+                <p>$15.50</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Jarra de barro con un diseño liso y elegante, ideal para servir bebidas o como elemento decorativo en cualquier ocasión.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="JARRA LISA" data-precio="15.50" data-imagen="./Barro/Jarra lisa.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Barro/lampara.jpg" alt="Lampara">
+                <h3>LAMPARA DECORATIVA</h3>
+                <p>$69.99</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Lámpara artesanal decorativa, hecha a mano con detalles artísticos únicos que aportan calidez y estilo a cualquier habitación.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="LAMPARA DECORATIVA" data-precio="69.99" data-imagen="./Barro/lampara.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Barro/Macetero.jpg" alt="Maceta">
+                <h3>MACETA EN FORMA DE OLLA</h3>
+                <p>$45.99</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Maceta en forma de olla, elaborada artesanalmente para darle un toque rústico y natural a tus plantas y espacios.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="MACETA EN FORMA DE OLLA" data-precio="45.99" data-imagen="./Barro/Macetero.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Barro/mesa.jpg" alt="mesa">
+                <h3>MESA PARA COMEDOR</h3>
+                <p>$32.00</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Mesa de comedor artesanal, fabricada con materiales resistentes y un diseño único. Ideal para reuniones familiares y darle un toque artesanal a tu hogar.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="MESA PARA COMEDOR" data-precio="32.00" data-imagen="./Barro/mesa.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="Barro/plato de barro.jpg" alt="Plato">
+                <h3>PLATO CON DECORACIÓN</h3>
+                <p>$12.99</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Plato decorativo pintado a mano, perfecto para exhibir o utilizar en comidas especiales. Su diseño artesanal lo convierte en una pieza única.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="PLATO CON DECORACIÓN" data-precio="12.99" data-imagen="./Barro/plato de barro.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+              </div>
+              <div class="producto">
+                <img src="Barro/Tazas barro.jpg" alt="taza">
+                <h3>TAZA PARA CAFÉ</h3>
+                <p>$5.00</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Taza de barro hecha a mano, ideal para disfrutar de tu café con estilo. Su diseño sencillo pero elegante destaca en cualquier ocasión.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="TAZA PARA CAFÉ" data-precio="5.00" data-imagen="./Barro/Tazas barro.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="./Barro/Vajilla para 2.jpg" alt="Vajilla para 2">
+                <h3>VAJILLA PARA 2</h3>
+                <p>$30.00</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Vajilla artesanal para dos personas, compuesta por piezas cuidadosamente elaboradas a mano en forma de corazón. Perfecta para cenas íntimas con un toque artístico.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="VAJILLA PARA 2" data-precio="30.00" data-imagen="./Barro/Vajilla para 2.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="./Barro/Vasitos.jpg" alt="Vasitos">
+                <h3>VASITOS NEGROS</h3>
+                <p>$18.00</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Vasitos de barro negros, pequeños pero elegantes, ideales para servir bebidas o como piezas decorativas únicas.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="VASITOS NEGROS" data-precio="18.00" data-imagen="./Barro/Vasitos.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="categoria">
+            <h2> CERÁMICA</h2>
+            <div class="productos-grid">
+            <div class="producto">
+                <img src="Ceramica/Aretes de arcoiris" alt="Aretes">
+                <h3>ARETES ARCOIRIS</h3>
+                <p>$22.99</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Aretes de cerámica fina con vibrantes colores de arcoiris, hechos a mano para aportar alegría y estilo a cualquier conjunto.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="ARETES ARCOIRIS" data-precio="22.99" data-imagen="./Ceramica/Aretes de arcoiris.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+            </div>
+          <div class="producto">
+                <img src="Ceramica/Aretes de oro rosado.jpg" alt="aretes de oro">
+                <h3>ARETES CON ORO</h3>
+                <p>$45.99</p>
+                <div class="bloque_detalles" style="display: none;">
+                <p>Elegantes aretes de cerámica fina con detalles dorados, diseñados para quienes buscan un toque de lujo y distinción en sus accesorios.</p>
+                </div>
+                <div class="bloque">
+                <button class="boton-compra" data-nombre="ARETES CON ORO" data-precio="45.99" data-imagen="./Ceramica/Aretes de oro rosado.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button>
+                </div>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Aretes geometricos.jpg" alt="geometricos">
+            <h3>ARETES GEOMÉTRICOS</h3>
+            <p>$15.99</p>
+            <div class="bloque_detalles" style="display: none;">
+            <p>Aretes de cerámica fina con formas geométricas modernas, ideales para un look sofisticado y contemporáneo.</p>
+            </div>
+            <div class="bloque">
+            <button class="boton-compra" data-nombre="ARETES CON ORO" data-precio="15.99" data-imagen="./Ceramica/Aretes geometricos.jpg">Agregar al carrito</button>
+            <button class="boton-detalles">Detalles</button>
+            </div>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Collar con diamente" alt="COLLAR">
+            <h3> COLLAR CON DIAMENTE</h3>
+            <p>$69.99</p>
+            <div class="bloque_detalles" style="display: none;">
+            <p>Collar de cerámica fina adornado con un delicado diseño de diamante, perfecto para añadir un toque sutil de elegancia.</p>
+            </div>
+            <div class="bloque">
+            <button class="boton-compra" data-nombre="COLLAR CON DIAMANTE" data-precio="69.99" data-imagen="./Ceramica/Collar con diamante.jpg">Agregar al carrito</button>
+            <button class="boton-detalles">Detalles</button>
+            </div>
+          </div>
+        <div class="producto">
+          <img src="./Ceramica/Jarros decorativos.png" alt="Jarros">
+          <h3> JARROS DECORATIVOS</h3>
+          <p>$50.00</p>
+          <div class="bloque_detalles" style="display: none;">
+          <p>Jarros de cerámica fina decorados a mano, ideales para embellecer tu hogar con arte funcional y de alta calidad.</p>
+          </div>
+          <div class="bloque">
+          <button class="boton-compra" data-nombre=" JARROS DECORATIVOS" data-precio="50.00" data-imagen="./Ceramica/Jarros decorativos.jpg">Agregar al carrito</button>
+          <button class="boton-detalles">Detalles</button>
+        </div>
+        </div>
+          <div class="producto">
+            <img src="Ceramica/Maceta de rostro.jpg" alt="Maceta">
+            <h3>MACETA CON ROSTRO</h3>
+            <p>$34.65</p>
+            <div class="bloque_detalles" style="display: none;">
+            <p>Maceta de cerámica fina con diseño de rostro, una pieza original y creativa para darle vida a tus plantas y espacios.</p>
+            </div>
+            <div class="bloque">
+            <button class="boton-compra" data-nombre=" MACETA CON ROSTRO" data-precio="34.65" data-imagen="./Ceramica/Maceta de rostro.jpg">Agregar al carrito</button>
+            <button class="boton-detalles">Detalles</button>
+            </div>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Maceta gris.jpg" alt="gris">
+            <h3> MACETA GRIS</h3>
+            <p>$35.99</p>
+            <div class="bloque_detalles" style="display: none;">
+            <p>Maceta artesanal de cerámica fina en tono gris, perfecta para un estilo minimalista y elegante en la decoración de tu hogar.</p>
+            </div>
+            <div class="bloque">
+            <button class="boton-compra" data-nombre=" MACETA GRIS" data-precio="35.99" data-imagen="./Ceramica/Maceta gris.jpg">Agregar al carrito</button>
+            <button class="boton-detalles">Detalles</button>
+            </div>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Macetas de ceramica octagona.jpg" alt="octagona">
+            <h3>MACETA OCTAGONAL</h3>
+            <p>$45.99</p>
+            <div class="bloque_detalles" style="display: none;">
+            <p>Maceta de cerámica fina con forma octagonal, combinando diseño moderno y funcionalidad para tus plantas favoritas.</p>
+            </div>
+            <div class="bloque">
+            <button class="boton-compra" data-nombre=" MACETA OCTAGONAL" data-precio="45.99" data-imagen="./Ceramica/Macetas de ceramica octagona.jpg">Agregar al carrito</button>
+            <button class="boton-detalles">Detalles</button>
+            </div>
+          </div>
+          <div class="producto">
+            <img src="Ceramica/Macetas terra flora.jpg" alt="MACETA terra">
+            <h3>MACETA TERRA FLORA</h3>
+            <p>$25.99</p>
+            <div class="bloque_detalles" style="display: none;">
+            <p>Mecate de cerámica fina inspirado en la naturaleza, ideal para complementar la decoración rústica o moderna con un toque artesanal.</p>
+            </div>
+            <div class="bloque">
+            <button class="boton-compra" data-nombre=" MACETA TERRA FLORA" data-precio="25.99" data-imagen="./Ceramica/Macetas terra flora.jpg">Agregar al carrito</button>
+            <button class="boton-detalles">Detalles</button>
+            </div>
+          </div> 
+          <div class="producto">
+            <img src="Ceramica/Juego de utensilios de cocina.jpg" alt="utensilios">
+            <h3>UTENSILIOS DE COCINA</h3>
+            <p>$35.99</p>
+            <div class="bloque_detalles" style="display: none;">
+            <p>Utensilios de cocina de cerámica fina, cuidadosamente elaborados a mano para ofrecer durabilidad y un estilo único en tu cocina.</p>
+            </div>
+            <div class="bloque">
+                <button class="boton-compra" data-nombre=" UTENSILIOS DE COCINA" data-precio="35.99" data-imagen="./Ceramica/Vajilla celeste.jpg">Agregar al carrito</button>
+                <button class="boton-detalles">Detalles</button> 
+            </div>
+          </div>
+        </div>
+
+             <div class="categoria">
+                <h2>MADERA</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="./Madera/Capirucho grande.jpg" alt="Capirucho">
+                        <h3>CAPIRUCHO GRANDE</h3>
+                        <p>$9.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Capirucho artesanal de madera, un clásico juguete salvadoreño en tamaño grande, perfecto para disfrutar y coleccionar.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre=" CAPIRUCHO GRANDE" data-precio="9.00" data-imagen="./Madera/Capirucho grande.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button> 
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 7.jpg" alt="Producto 7">
+                        <h3>CARRETA DE BUEYES</h3>
+                        <p>$8.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Carreta de bueyes artesanal de madera, diseñada como un elegante adorno para mesas, que captura la esencia de la tradición rural.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre=" CARRETERA DE BUEYES" data-precio="8.00" data-imagen="./Madera/Madera 7.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button> 
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 1.jpg" alt="Producto 1">
+                        <h3>COFRE ARTESANAL</h3>
+                        <p>$5.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Cofre de madera hecho a mano, ideal para guardar tus objetos valiosos con un toque de estilo rústico y artesanal.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre=" COFRE ARTESANAL" data-precio="5.00" data-imagen="./Madera/Madera 1.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button> 
+                        </div>
+                    </div>  
+                    <div class="producto">
+                        <img src="./Madera/Madera 10.png" alt="Producto 10">
+                        <h3>COMEDOR PARA DOS</h3>
+                        <p>$55.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <P>Juego de comedor de madera sencillo y artesanal, perfecto para parejas que buscan un ambiente cálido y acogedor.</P>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre=" COMEDOR PARA DOS" data-precio="55.00" data-imagen="./Madera/Madera 10.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>    
+                    <div class="producto">
+                        <img src="./Madera/Madera 14.jpg" alt="Producto 14">
+                        <h3>CONTENEDOR PARA BOTELLA</h3>
+                        <p>$25.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Contenedor de madera para botellas, diseñado para montarse en la pared. Un práctico y elegante accesorio decorativo para tu cocina o comedor.</p>
+                        </div>
+                        <div class="bloque">
+                            <button class="boton-compra" data-nombre="CONTENEDOR PARA BOTELLA" data-precio="25.00" data-imagen="./Madera/Madera 14.jpg">Agregar al carrito</button>
+                            <button class="boton-detalles">Detalles</button>
+                        </div>
+                        </div>              
+                    <div class="producto">
+                        <img src="./Madera/Madera 11.jpg" alt="Producto 11">
+                        <h3>CUADRO DECORATIVO</h3>
+                        <p>$20.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Cuadro artesanal de madera con diseño de brújula, ideal para los amantes de la aventura y la exploración.</p>
+                        </div>
+                        <div class="bloque">
+                            <button class="boton-compra" data-nombre="CUADRO DECORATIVO" data-precio="20.00" data-imagen="./Madera/Madera 11.jpg">Agregar al carrito</button>
+                            <button class="boton-detalles">Detalles</button>
+                        </div>
+                     </div>                
+                    <div class="producto">
+                        <img src="./Madera/Madera 3.jpg" alt="Producto 3">
+                        <h3>CUADRO DETALLADO</h3>
+                        <p>$8.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Cuadro de madera que representa con detalle un pueblo salvadoreño, capturando la belleza y la cultura del país en cada pincelada.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CUADRO DETALLADO" data-precio="8.00" data-imagen="./Madera/Madera 3.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 12.jpg" alt="Producto 12">
+                        <h3>CUADRO DE TORTUGA</h3>
+                        <p>$25.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Cuadro de madera con una delicada tortuga en tonos azulados, una pieza que añade serenidad y naturaleza a cualquier espacio.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CUADRO DE TORTUGA" data-precio="25.00" data-imagen="./Madera/Madera 12.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                     </div>
+                    <div class="producto">
+                        <img src="./Madera/Cuadro de volcán.jpg" alt="Cuadro Volcán">
+                        <h3>CUADRO DE VOLCÁN</h3>
+                        <p>$10.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>majestuosa representación de un volcán, pintado a mano con detalles vibrantes que capturan la belleza y la fuerza de la naturaleza.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CUADRO DE VOLCÁN" data-precio="10.00" data-imagen="./Madera/Cuadro de volcán.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>   
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 9.jpg" alt="Producto 9">
+                        <h3>CRUZ DECORADA</h3>
+                        <p>$17.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Cruz de madera decorada a mano con una escena de un pueblo salvadoreño, una pieza que combina fe y tradición cultural.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CRUZ DECORADA" data-precio="17.00" data-imagen="./Madera/Madera 9.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 8.jpg" alt="Producto 8">
+                        <h3>ESCUDO DEL SALVADOR</h3>
+                        <p>$15.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Reproducción del escudo nacional de El Salvador en madera, perfecto para mostrar tu orgullo patrio en cualquier ambiente.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="ESCUDO DEL SALVADOR" data-precio="15.00" data-imagen="./Madera/Madera 8.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Lotería.jpg" alt="Lotería">
+                        <h3>JUEGO DE LOTERÍA</h3>
+                        <p>$8.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Juego de lotería artesanal hecho en madera, una versión única del tradicional juego familiar con un toque rústico.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="JUEGO DE LOTERÍA" data-precio="8.00" data-imagen="./Madera/Lotería.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 5.jpg" alt="Producto 5">
+                        <h3>JUEGOS TRADICONALES </h3>
+                        <p>$9.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Set de juguetes tradicionales salvadoreños hechos en madera, que incluye capirucho, yoyo y revuelto, para revivir la diversión de antaño.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="JUEGOS TRADICIONALES" data-precio="9.00" data-imagen="./Madera/Madera 5.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 13.jpg" alt="Producto 13">
+                        <h3>LLAVERO CON FRASE</h3>
+                        <p>$4.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Llavero de madera en forma rectangular con una frase inspiradora, un accesorio personal y único que puedes llevar a todas partes.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="LLAVERO CON FRASE" data-precio="4.00" data-imagen="./Madera/Madera 13.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                     </div>
+                    <div class="producto">
+                        <img src="./Madera/Mesa de 3 cajones.jpg" alt="Mesa cajones">
+                        <h3>MESA CON 3 CAJONES</h3>
+                        <p>$50.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Mesa de madera con tres cajones, perfecta para acompañar tu cama con un estilo artesanal y práctico.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="MESA CON 3 CAJONES" data-precio="50.00" data-imagen="./Madera/Mesa de 3 cajones.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Mesa de pita.jpg" alt="Mesa de mezcal">
+                        <h3>MESA DE MESCAL</h3>
+                        <p>$50.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Mesa de madera diseñada para el centro de sala, ideal para disfrutar momentos especiales con un toque rústico y artesanal.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="MESA DE MEZCAL" data-precio="50.00" data-imagen="./Madera/Mesa de pita.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 4.jpg" alt="Producto 4">
+                        <h3>NACIMIENTO NAVIDEÑO DE MADERA</h3>
+                        <p>$25.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Nacimiento navideño tallado en madera, pequeño y detallado, perfecto para celebrar la Navidad con tradición y arte.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="NACIMIENTO NAVIDEÑO" data-precio="25.00" data-imagen="./Madera/Madera 4.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Madera/Madera 2.jpg" alt="Producto 2">
+                        <h3>PLATO COLORIDO</h3>
+                        <p>$4.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Plato de madera pintado a mano con colores vibrantes, ideal para colgar y decorar tus paredes con estilo.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="PLATO COLORIDO" data-precio="4.00" data-imagen="./Madera/Madera 2.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>                 
+                    <div class="producto">
+                        <img src="./Madera/Madera 6.jpg" alt="Producto 6">
+                        <h3>UTENSILIOS DE COCINA</h3>
+                        <p>$40.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Juego de utensilios de cocina de madera, resistentes y hechos a mano, diseñados para darle un toque natural a tu cocina.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="UTENSILIOS DE COCINA" data-precio="40.00" data-imagen="./Madera/Madera 6.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>                   
+            </div>
+            
+            <div class="categoria">
+                <h2>METAL</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="./Metal/Metal 1.jpg" alt="Producto 1">
+                        <h3>BALANZA </h3>
+                        <p>$5.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Balanza artesanal de metal, un elemento decorativo clásico que combina diseño industrial y elegancia rústica para cualquier espacio.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="BALANZA" data-precio="5.00" data-imagen="./Metal/Metal 1.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/metal 3.jpg" alt="Producto 3">
+                        <h3>CANDIL</h3>
+                        <p>$5.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Candil de metal hecho a mano, ideal para crear un ambiente cálido y acogedor con su estilo tradicional y detalles intrincados.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CANDIL" data-precio="5.00" data-imagen="./Metal/Metal 3.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 10.jpg" alt="Producto 10">
+                        <h3>FRASES MOTIVADORAS </h3>
+                        <p>$8.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Placas de metal con frases motivadoras grabadas, perfectas para inspirar y decorar tus paredes con un toque moderno y minimalista.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="FRASES MOTIVADORAS" data-precio="8.00" data-imagen="./Metal/Metal 10.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 6.jpg" alt="Producto 6">
+                        <h3>LLAVERO TRADICIONAL</h3>
+                        <p>$4.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Llavero de metal con diseño tradicional, resistente y detallado, ideal para llevar contigo un pedazo de cultura y estilo artesanal.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="LLAVERO TRADICIONAL" data-precio="4.00" data-imagen="./Metal/Metal 6.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 8.jpg" alt="Producto 8">
+                        <h3>MARIPOSA</h3>
+                        <p>$12.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Figura decorativa de metal en forma de mariposa, diseñada para añadir un toque de naturaleza y elegancia a tu hogar.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="MARIPOSA" data-precio="12.00" data-imagen="./Metal/Metal 8.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 5.jpg" alt="Producto 5">
+                        <h3>PAJAROS DECORATIVOS</h3>
+                        <p>$12.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Esculturas de pájaros en metal, pintados a mano, que aportan un toque de vida y color a cualquier rincón de tu casa.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="PAJAROS DECORATIVOS" data-precio="12.00" data-imagen="./Metal/Metal 5.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 7.jpg" alt="Producto 7">
+                        <h3>PINTOR </h3>
+                        <p>$5.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Figura de metal representando a un pintor, un adorno artístico ideal para quienes buscan añadir un toque creativo y único a su espacio.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="PINTOR" data-precio="5.00" data-imagen="./Metal/Metal 7.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 9.jpg" alt="Producto 9">
+                        <h3>TAZA DECORATIVA</h3>
+                        <p>$25.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Estructura de metal diseñada para organizar y exhibir tazas, combinando funcionalidad y estilo industrial para tu cocina o comedor.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="TAZA DECORATIVA" data-precio="25.00" data-imagen="./Metal/Metal 9.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/Metal 2.jpg" alt="Producto 2">
+                        <h3>TOSTADOR</h3>
+                        <p>$3.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Tostador de metal artesanal, un complemento decorativo para la cocina que combina estilo vintage y funcionalidad.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="TOSTADOR" data-precio="3.00" data-imagen="./Metal/Metal 2.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Metal/metal 4.jpg" alt="Producto 4">
+                        <h3>VASIJA DECORATIVA </h3>
+                        <p>$8.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Vasija de metal con diseño detallado, una pieza única que añade un toque de sofisticación y arte a cualquier decoración.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="VASIJA DECORATIVA" data-precio="8.00" data-imagen="./Metal/Metal 4.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="CATEGORIA">
+                <h2>PIEDRA</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="Piedra/ARETE DE PIEDRAS DORADAS.jpg" alt="ARETES">
+                        <h3>ARETES DORADOS</h3>
+                        <p>$10.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Elegantes aretes de piedra con detalles dorados, hechos a mano para añadir un toque sofisticado y natural a cualquier look.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="ARETES DORADOS" data-precio="10.00" data-imagen="./Piedra/ARETE DE PIEDRAS DORADAS.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="Piedra/ARETES EN FORMA DE UVA.jpg" alt="UVA">
+                        <h3>ARETES FORMA DE UVA</h3>
+                        <p>$12.99</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Aretes únicos en forma de uva, elaborados con piedra natural, ideales para quienes buscan un accesorio original y artesanal.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="ARETES FORMA DE UVA" data-precio="12.99" data-imagen="./Piedra/ARETES EN FORMA DE UVA.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="Piedra/MORTERO.jpg" alt="MORTERO">
+                        <h3>MORTERO</h3>
+                        <p>$5.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Mortero de piedra, perfecto para moler especias y hierbas de forma tradicional. Una pieza funcional y decorativa para tu cocina.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="MORTERO" data-precio="5.00" data-imagen="./Piedra/MORTERO.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="Piedra/MOLCAJETE.jpg" alt="molcajete">
+                        <h3>MOLINO MANUAL</h3>
+                        <p>$15.99</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Molino manual de piedra, diseñado para moler granos de manera eficiente, combinando utilidad y artesanía en una sola pieza.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="MOLINO MANUAL" data-precio="15.99" data-imagen="./Piedra/MOLCAJETE.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="Piedra/PIEDRAS BLANCAS.jpg" alt="blancas">
+                        <h3>PIEDRAS DECORATIVAS BLANCAS</h3>
+                        <p>$23.99</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Piedras blancas decorativas de origen natural, ideales para agregar un toque de pureza y elegancia a tus arreglos de interiores o exteriores.</p>
+                        </div>
+                        <div class="bloque">
+                            <button class="boton-compra" data-nombre="PIEDRAS DECORATIVAS BLANCAS" data-precio="23.99" data-imagen="./Piedra/PIEDRAS BLANCAS.jpg">Agregar al carrito</button>
+                            <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="Piedra/ADORNOS DE MESA.jpg" alt="Adorno">
+                        <h3>PIEDRAS DE MESA</h3>
+                        <p>$7.50</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Piedras de mesa, talladas y pulidas a mano, perfectas para añadir un elemento rústico y sofisticado a la decoración de tu comedor o sala.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="PIEDRAS DE MESA" data-precio="7.50" data-imagen="./Piedra/ADORNOS DE MESA.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="Piedra/SARTEN.jpg" alt="sarten">
+                        <h3>SÁRTEN VOLCÁNICA</h3>
+                        <p>$60.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Sartén artesanal hecha de piedra volcánica, ideal para cocinar platos tradicionales con un toque natural y auténtico.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="SARTÉN VOLCÁNICA" data-precio="6.00" data-imagen="./Piedra/SARTEN.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h2>TELA</h2>
+                    <div class="productos-grid">
+                    <div class="producto">
+                        <img src="./Tela/Tela 6.jpg" alt="Producto 6">
+                        <h3>BOLSA </h3>
+                        <p>6.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Esta bolsa de manta es perfecta para quienes buscan un estilo sencillo y natural. Su diseño sin adornos permite combinarla con cualquier atuendo, ideal para el uso diario.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="BOLSA" data-precio="6.00" data-imagen="./Tela/Tela 6.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Bolso con forro para agenda.jpg" alt="Bolso y agedna">
+                        <h3>BOLSO CON FORRO PARA AGENDA</h3>
+                        <p>$20.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Este bolso viene forrado y decorado con colores vibrantes, ideal para llevar tu agenda de manera organizada y con estilo.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="BOLSA" data-precio="20.00" data-imagen="./Tela/Bolso con forro para agenda.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Bolso de manta.jpg" alt="Bolso de manta">
+                        <h3>BOLSO DE MANTA</h3>
+                        <p>$3.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Hecho a mano, este bolso de manta en tonos neutros es un complemento versátil que resalta la belleza de lo sencillo.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="BOLSA DE MANTA" data-precio="3.00" data-imagen="./Tela/Bolso de manta.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Camisa de la selecta.jpg" alt="Camisa">
+                        <h3>CAMISA ES</h3>
+                        <p>$12.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Esta camisa fresca está inspirada en la cultura salvadoreña. Confeccionada en telas ligeras, es perfecta para mantener la comodidad y el estilo en los días cálidos.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CAMISA ES" data-precio="12.00" data-imagen="./Tela/Camisa de la selecta.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Cartera de flores.jpg" alt="Cartera de flores">
+                        <h3>CARTERA DE FLORES</h3>
+                        <p>$7.50</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Con un diseño encantador de flores bordadas, esta cartera para mujer combina elegancia y tradición. Ideal para llevar tus esenciales con un toque colorido y femenino.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="CARTERA DE FLORES" data-precio="7.50" data-imagen="./Tela/Cartera de flores.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 7.png" alt="Producto 7">
+                        <h3>GORROS  </h3>
+                        <p>$8.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Estos gorros artesanales son perfectos para disfrutar del sol en la playa.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="GORROS" data-precio="8.00" data-imagen="./Tela/Tela 7.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Hamaca con decoración azul.jpg" alt="Hamaca c/azul">
+                        <h3>HAMACA CON DECORACIÓN AZUL</h3>
+                        <p>$38.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Relájate en esta hermosa hamaca tejida a mano con patrones en tonos azul y blanco. Ideal para descansar en interiores o exteriores.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="HAMACA CON DECORACIÓN AZUL" data-precio="38.00" data-imagen="./Tela/Hamaca con decoración azul.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Hamaca con decoración café.jpg" alt="Hamaca c/café">
+                        <h3>HAMACA CON DECORACIÓN CAFÉ</h3>
+                        <p>$38.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Esta elegante hamaca combina tonos café y blanco, perfecta para quienes buscan un estilo rústico y acogedor.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="HAMACA CON DECORACIÓN CAFÉ" data-precio="38.00" data-imagen="./Tela/Hamaca con decoración café.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 3.jpg" alt="Producto 3">
+                        <h3>HAMACA GRANDE </h3>
+                        <p>$25.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Una explosión de colores vibrantes en una hamaca grande, tejida a mano para brindarte comodidad y estilo.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="HAMACA GRANDE" data-precio="25.00" data-imagen="./Tela/Hamaca multicolor.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 5.jpg" alt="Producto 5">
+                        <h3>INDIVIDUALES</h3>
+                        <p>$10.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Estos individuales de tela son una adición artesanal encantadora para tu mesa. Hechos a mano con diseños únicos, son perfectos para dar un toque de estilo y tradición a tus comidas diarias.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="INDIVIDUALES" data-precio="10.00" data-imagen="./Tela/Tela 5.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Mantas multicolor.jpg" alt="Mantas multicolor">
+                        <h3>MANTAS MULTICOLOR</h3>
+                        <p>$10.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Estas mantas multiuso, tejidas a mano, son perfectas para cualquier ocasión.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="MANTAS MULTICOLOR" data-precio="10.00" data-imagen="./Tela/Mantas multicolor.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 8.jpg" alt="Producto 8">
+                        <h3>MANTEL</h3>
+                        <p>12.00</p>
+                        <div class="bloque_detalles" style="display: none;">
+                        <p>Disfruta de un picnic con estilo con este mantel artesanal. Hecho a mano con colores y patrones vibrantes, es perfecto para llevar al aire libre y disfrutar de momentos especiales en la naturaleza.</p>
+                        </div>
+                        <div class="bloque">
+                        <button class="boton-compra" data-nombre="MANTEL" data-precio="12.00" data-imagen="./Tela/Tela 8.jpg">Agregar al carrito</button>
+                        <button class="boton-detalles">Detalles</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 2.jpg" alt="Producto 2">
+                        <h3>MUÑECA COLORIDA</h3>
+                        <p>12.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Muñeco decorativo.jpg" alt="Muñeco decorativo">
+                        <h3>MUÑECO DECORATIVO</h3>
+                        <p>$3.50</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Bisutería.jpg" alt="Bisuteria">
+                        <h3>PULSERAS</h3>
+                        <p>$10.50</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 1.jpg" alt="Producto 1">
+                        <h3>SILLA COLORIDAS </h3>
+                        <p>$25.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Suéter.jpg" alt="Suéter">
+                        <h3>SUÉTER</h3>
+                        <p>$8.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Tela/Tela 4.jpg" alt="Producto 4">
+                        <h3>VESTIDO TIPICO </h3>
+                        <p>15.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="categoria">
+                <h2>VIDRIO</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="./Vidrio/Vitral Angel navideño.jpg" alt="Producto 8">
+                        <h3>ADORNO NAVIDEÑO</h3>
+                        <p>$20.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Arboles pequeños.jpg" alt="Producto 1">
+                        <h3>ÁRBOLES DECORATIVOS</h3>
+                        <p>$30.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Frutas.jpg" alt="Producto 2">
+                        <h3>FRUTAS PORTACALIENTES</h3>
+                        <p>$25.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Lampara.jpg" alt="Producto 3">
+                        <h3>LÁMPARA</h3>
+                        <p>$50.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Mapa.jpg" alt="Producto 4">
+                        <h3>MAPA DE EL SALVADOR</h3>
+                        <p>18.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Plato.jpg" alt="Producto 5">
+                        <h3>PLATO</h3>
+                        <p>$15.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Tcf.jpg" alt="Producto 6">
+                        <h3>TOROGOZ CON VOLCÁN Y FLOR</h3>
+                        <p>$25.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="./Vidrio/Torogoz.jpg" alt="Producto 7">
+                        <h3>TOROGOZ</h3>
+                        <p>$20.00</p>
+                        <div class="bloque">
+                            <a href="pagina_de_compra" class="boton-comprar">Agregar al carrito</a>
+                            <a href="pagina de compra" class="boton-detalles"> Detalles</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+          
+    </main>
+
+
+        </div>
+    </div>
+    <script src="mostar_ocultar_detalles.js"></script>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+   
+                    <div class="footer-col-1">
+                        <h3>Lorem ipsum dolor sit amet, consectetuer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                     </div> 
+        
+                    <div class="footer-col-2">
+                       <img src="./Imagenes/Logo Nawat-02.png" alt="logo en blanco">
+                       <p>Productos locales, de manos y diseñadores salvadoreños; hechos con amor y dedicación, que buscan compartir una experiencia de la identidad de El Salvador. </p>
+                    </div>
+        
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Cupones</li>
+                            <li>Blog Post</li>
+                            <li>Politicas de devolución</li>
+                            <li>Descuentos</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-col-4">
+                        <h3>Siguenos en</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Tik Tok</li>
+                            <li>X</li>
+                        </ul>
+                    </div>
+                   
+                </div>
+                <hr> 
+                <div class="copyright">
+                    <p>Copyright 2024 - NAWAT | Marketplace</p>
+    
+                </div>
+                
+            </div>
+        </div>
+        
+    
+    </footer>
+</body>
+</html>
