@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-/*body{
-    font-family: 'Poppins', sans-serif;
 
-} */
 
 .navbar {
     display: flex;
@@ -411,8 +408,8 @@ main {
 position: fixed;
 left: 20px;
 top: 100px; /* Ajusta este valor a 100px para que el menú esté 10cm abajo */
-background: #563434;
-color: #563434;
+background: transparent;
+color: black;
 height: 45px;
 width: 45px;
 z-index: 9999;
@@ -655,11 +652,10 @@ transition: all 0.3s ease;
 .menu-container {
     text-align: left; /* Alinea el menú a la derecha */
     margin-right: 0px; /* Margen opcional para separar del borde */
-    background: radial-gradient(#fff,#C09C8D);
+    background-color: #C09C8D;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f5f5f5;
     padding: 10px 20px;
     border-bottom: 1px solid #f1eae4;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
@@ -690,8 +686,8 @@ transition: all 0.3s ease;
 }
 /* Estilo para el botón del menú */
 .dropdown button {
-    background-color: #563434;
-    color: white;
+    background-color: transparent;
+    color: black;
     padding: 10px;
     font-size: 30px;
     border: none;
