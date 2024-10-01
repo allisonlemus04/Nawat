@@ -1,0 +1,18 @@
+.carousel slide{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.d-item{
+    height: 800px;
+
+}
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.mt-4 p{ 
+    color: #eee;
+}
