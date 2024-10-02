@@ -5,9 +5,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* body{
-    font-family: 'Poppins', sans-serif;
-} */
+
 
 .header{
     background: radial-gradient(#fff,#C09C8D);
@@ -45,6 +43,7 @@ p{
 }
 
 
+
 .contenedor{
     max-width: 1300px;
     margin: auto;
@@ -53,7 +52,7 @@ p{
 
 }
 
-.contenedor .row{
+.row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -76,7 +75,7 @@ p{
     margin: 25px 0;
 }
 
-.contenedor.columna-2 .btn{
+.contenedor .columna-2 .btn{
     display: inline-block;
     background: #ff523b;
     color: white;
@@ -86,10 +85,9 @@ p{
     transition: background 0.5s ;
 }
 
-.contenedor .columna-2 .btn:hover{
+.btn:hover{
     background:#563434 ;
 }
-
 
 .header{
     background: radial-gradient(#fff,#C09C8D);
